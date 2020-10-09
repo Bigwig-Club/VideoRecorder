@@ -11,7 +11,30 @@
 		BF5C0A05253034AA00ADAED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C0A04253034AA00ADAED1 /* ViewController.swift */; };
 		BF5C0A07253034AB00ADAED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5C0A06253034AB00ADAED1 /* Assets.xcassets */; };
 		BF5C0A0A253034AB00ADAED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5C0A08253034AB00ADAED1 /* Main.storyboard */; };
+		BF5C0A1F253035FF00ADAED1 /* libavformat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5C0A1C253035FF00ADAED1 /* libavformat.dylib */; };
+		BF5C0A20253035FF00ADAED1 /* libavformat.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = BF5C0A1C253035FF00ADAED1 /* libavformat.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BF5C0A21253035FF00ADAED1 /* libavutil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5C0A1D253035FF00ADAED1 /* libavutil.dylib */; };
+		BF5C0A22253035FF00ADAED1 /* libavutil.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = BF5C0A1D253035FF00ADAED1 /* libavutil.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BF5C0A23253035FF00ADAED1 /* libavdevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5C0A1E253035FF00ADAED1 /* libavdevice.dylib */; };
+		BF5C0A24253035FF00ADAED1 /* libavdevice.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = BF5C0A1E253035FF00ADAED1 /* libavdevice.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BF5C0A292530361300ADAED1 /* media.c in Sources */ = {isa = PBXBuildFile; fileRef = BF5C0A282530361300ADAED1 /* media.c */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF5C0A25253035FF00ADAED1 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BF5C0A20253035FF00ADAED1 /* libavformat.dylib in Embed Libraries */,
+				BF5C0A22253035FF00ADAED1 /* libavutil.dylib in Embed Libraries */,
+				BF5C0A24253035FF00ADAED1 /* libavdevice.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BF5C09FF253034AA00ADAED1 /* VideoRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,6 +44,12 @@
 		BF5C0A09253034AB00ADAED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF5C0A0B253034AB00ADAED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5C0A0C253034AB00ADAED1 /* VideoRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoRecorder.entitlements; sourceTree = "<group>"; };
+		BF5C0A1C253035FF00ADAED1 /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = VideoRecorder/libs/libavformat.dylib; sourceTree = "<group>"; };
+		BF5C0A1D253035FF00ADAED1 /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = VideoRecorder/libs/libavutil.dylib; sourceTree = "<group>"; };
+		BF5C0A1E253035FF00ADAED1 /* libavdevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.dylib; path = VideoRecorder/libs/libavdevice.dylib; sourceTree = "<group>"; };
+		BF5C0A262530361300ADAED1 /* VideoRecorder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoRecorder-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF5C0A272530361300ADAED1 /* media.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = media.h; sourceTree = "<group>"; };
+		BF5C0A282530361300ADAED1 /* media.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = media.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5C0A1F253035FF00ADAED1 /* libavformat.dylib in Frameworks */,
+				BF5C0A21253035FF00ADAED1 /* libavutil.dylib in Frameworks */,
+				BF5C0A23253035FF00ADAED1 /* libavdevice.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +71,7 @@
 			children = (
 				BF5C0A01253034AA00ADAED1 /* VideoRecorder */,
 				BF5C0A00253034AA00ADAED1 /* Products */,
+				BF5C0A1B253035FF00ADAED1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +92,21 @@
 				BF5C0A08253034AB00ADAED1 /* Main.storyboard */,
 				BF5C0A0B253034AB00ADAED1 /* Info.plist */,
 				BF5C0A0C253034AB00ADAED1 /* VideoRecorder.entitlements */,
+				BF5C0A272530361300ADAED1 /* media.h */,
+				BF5C0A282530361300ADAED1 /* media.c */,
+				BF5C0A262530361300ADAED1 /* VideoRecorder-Bridging-Header.h */,
 			);
 			path = VideoRecorder;
+			sourceTree = "<group>";
+		};
+		BF5C0A1B253035FF00ADAED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C0A1E253035FF00ADAED1 /* libavdevice.dylib */,
+				BF5C0A1C253035FF00ADAED1 /* libavformat.dylib */,
+				BF5C0A1D253035FF00ADAED1 /* libavutil.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +119,7 @@
 				BF5C09FB253034AA00ADAED1 /* Sources */,
 				BF5C09FC253034AA00ADAED1 /* Frameworks */,
 				BF5C09FD253034AA00ADAED1 /* Resources */,
+				BF5C0A25253035FF00ADAED1 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -94,6 +141,7 @@
 				TargetAttributes = {
 					BF5C09FE253034AA00ADAED1 = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -132,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5C0A292530361300ADAED1 /* media.c in Sources */,
 				BF5C0A05253034AA00ADAED1 /* ViewController.swift in Sources */,
 				BF5C0A03253034AA00ADAED1 /* AppDelegate.swift in Sources */,
 			);
@@ -209,6 +258,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = VideoRecorder/include;
 			};
 			name = Debug;
 		};
@@ -263,6 +313,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = VideoRecorder/include;
 			};
 			name = Release;
 		};
@@ -271,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = VideoRecorder/VideoRecorder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -279,9 +331,16 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoRecorder/libs",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.m01i0ng.VideoRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoRecorder/VideoRecorder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/VideoRecorder/include";
 			};
 			name = Debug;
 		};
@@ -290,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = VideoRecorder/VideoRecorder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -298,9 +358,15 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoRecorder/libs",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.m01i0ng.VideoRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoRecorder/VideoRecorder-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/VideoRecorder/include";
 			};
 			name = Release;
 		};

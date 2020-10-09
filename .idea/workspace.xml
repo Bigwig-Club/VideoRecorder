@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="798c57d7-e812-4e72-9317-d824a6d4331f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VideoRecorder/VideoRecorder-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoRecorder/media.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoRecorder/media.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoRecorder.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/VideoRecorder.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoRecorder.xcodeproj/xcuserdata/maliang.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/VideoRecorder.xcodeproj/xcuserdata/maliang.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoRecorder/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/VideoRecorder/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoRecorder/VideoRecorder.entitlements" beforeDir="false" afterPath="$PROJECT_DIR$/VideoRecorder/VideoRecorder.entitlements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoRecorder/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoRecorder/ViewController.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_macos_x86_64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1id44tBx6RcSn7PsE37FRPFfuJD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="VideoRecorder" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VideoRecorder" TARGET_NAME="VideoRecorder" CONFIG_NAME="Debug" SCHEME_NAME="VideoRecorder" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="VideoRecorder" RUN_TARGET_NAME="VideoRecorder" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="798c57d7-e812-4e72-9317-d824a6d4331f" name="Default Changelist" comment="" />
+      <created>1602223950349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602223950349</updated>
+      <workItem from="1602223952695" duration="2607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2560" height="395" key="GridCell.Tab.0.bottom" timestamp="1602226765464">
+      <screen x="1792" y="23" width="2560" height="1353" />
+    </state>
+    <state width="2560" height="395" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.2560.1353@1792.23.2560.1353" timestamp="1602226765464" />
+    <state width="2560" height="395" key="GridCell.Tab.0.center" timestamp="1602226765464">
+      <screen x="1792" y="23" width="2560" height="1353" />
+    </state>
+    <state width="2560" height="395" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.2560.1353@1792.23.2560.1353" timestamp="1602226765464" />
+    <state width="2560" height="395" key="GridCell.Tab.0.left" timestamp="1602226765463">
+      <screen x="1792" y="23" width="2560" height="1353" />
+    </state>
+    <state width="2560" height="395" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.2560.1353@1792.23.2560.1353" timestamp="1602226765463" />
+    <state width="2560" height="395" key="GridCell.Tab.0.right" timestamp="1602226765464">
+      <screen x="1792" y="23" width="2560" height="1353" />
+    </state>
+    <state width="2560" height="395" key="GridCell.Tab.0.right/0.23.1792.1097/1792.23.2560.1353@1792.23.2560.1353" timestamp="1602226765464" />
+    <state x="2660" y="441" key="IDE.errors.dialog" timestamp="1602224629330">
+      <screen x="1792" y="23" width="2560" height="1353" />
+    </state>
+    <state x="2660" y="441" key="IDE.errors.dialog/0.23.1792.1097/1792.23.2560.1353@1792.23.2560.1353" timestamp="1602224629330" />
+  </component>
+</project>
