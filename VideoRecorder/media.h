@@ -14,6 +14,7 @@
 #include "libavformat/avformat.h"
 #include "libavcodec/avcodec.h"
 
+void set_status(int);
 void open_media(void);
 
 #endif /* media_h */
